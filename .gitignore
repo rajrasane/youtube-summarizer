@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project specific (Large files/Temp)
+backend/models/
+backend/temp/
+backend/downloads/
+backend/processed_audio/
+backend/*.part
+*.webm
+*.mp4
+*.wav
+
+# System
+.DS_Store
+Thumbs.db

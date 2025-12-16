@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Video Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>YouTube Video Summarizer</h1>
+
+    <input
+        type="text"
+        id="youtubeUrl"
+        placeholder="Paste YouTube video URL here"
+    />
+
+    <button id="summarizeBtn">Generate Summary</button>
+
+    <div id="loader" class="hidden">⏳ Processing video...</div>
+
+    <pre id="summaryOutput"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
